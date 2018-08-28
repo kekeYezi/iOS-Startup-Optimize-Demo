@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01699702134CE7C00A6716E /* YYGHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A016996F2134CE7B00A6716E /* YYGHUser.m */; };
+		A01699772134CEFB00A6716E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A01699742134CEFB00A6716E /* NSObject+YYModel.m */; };
+		A01699782134CEFB00A6716E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A01699752134CEFB00A6716E /* YYClassInfo.m */; };
+		A016997A2134CF9500A6716E /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = A01699792134CF9500A6716E /* user.json */; };
+		A016997D2134D22D00A6716E /* ConsumTimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A016997C2134D22D00A6716E /* ConsumTimeHelper.m */; };
 		A0E6FDB6213428030024C963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6FDB5213428030024C963 /* AppDelegate.m */; };
 		A0E6FDB9213428030024C963 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6FDB8213428030024C963 /* ViewController.m */; };
 		A0E6FDBC213428030024C963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E6FDBA213428030024C963 /* Main.storyboard */; };
 		A0E6FDBE213428050024C963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E6FDBD213428050024C963 /* Assets.xcassets */; };
 		A0E6FDC1213428050024C963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E6FDBF213428050024C963 /* LaunchScreen.storyboard */; };
 		A0E6FDC4213428050024C963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6FDC3213428050024C963 /* main.m */; };
+		A0E6FDCE213436970024C963 /* KKTimeWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6FDCB213436970024C963 /* KKTimeWatch.m */; };
+		A0E6FDCF213436970024C963 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A0E6FDCC213436970024C963 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A016996E2134CE7B00A6716E /* YYGHUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYGHUser.h; sourceTree = "<group>"; };
+		A016996F2134CE7B00A6716E /* YYGHUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYGHUser.m; sourceTree = "<group>"; };
+		A01699722134CEFB00A6716E /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		A01699732134CEFB00A6716E /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		A01699742134CEFB00A6716E /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		A01699752134CEFB00A6716E /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		A01699762134CEFB00A6716E /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		A01699792134CF9500A6716E /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		A016997B2134D22D00A6716E /* ConsumTimeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsumTimeHelper.h; sourceTree = "<group>"; };
+		A016997C2134D22D00A6716E /* ConsumTimeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsumTimeHelper.m; sourceTree = "<group>"; };
 		A0E6FDB1213428030024C963 /* iOS-Startup-Optimize-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Startup-Optimize-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E6FDB4213428030024C963 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0E6FDB5213428030024C963 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,9 @@
 		A0E6FDC0213428050024C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E6FDC2213428050024C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0E6FDC3213428050024C963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0E6FDCB213436970024C963 /* KKTimeWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTimeWatch.m; sourceTree = "<group>"; };
+		A0E6FDCC213436970024C963 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A0E6FDCD213436970024C963 /* KKTimeWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTimeWatch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +59,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01699712134CEFB00A6716E /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				A01699722134CEFB00A6716E /* YYClassInfo.h */,
+				A01699732134CEFB00A6716E /* YYModel.h */,
+				A01699742134CEFB00A6716E /* NSObject+YYModel.m */,
+				A01699752134CEFB00A6716E /* YYClassInfo.m */,
+				A01699762134CEFB00A6716E /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
 		A0E6FDA8213428030024C963 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +90,17 @@
 		A0E6FDB3213428030024C963 /* iOS-Startup-Optimize-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A01699792134CF9500A6716E /* user.json */,
+				A01699712134CEFB00A6716E /* YYModel */,
+				A0E6FDCA213436970024C963 /* Classes */,
 				A0E6FDB4213428030024C963 /* AppDelegate.h */,
 				A0E6FDB5213428030024C963 /* AppDelegate.m */,
+				A016997B2134D22D00A6716E /* ConsumTimeHelper.h */,
+				A016997C2134D22D00A6716E /* ConsumTimeHelper.m */,
 				A0E6FDB7213428030024C963 /* ViewController.h */,
 				A0E6FDB8213428030024C963 /* ViewController.m */,
+				A016996E2134CE7B00A6716E /* YYGHUser.h */,
+				A016996F2134CE7B00A6716E /* YYGHUser.m */,
 				A0E6FDBA213428030024C963 /* Main.storyboard */,
 				A0E6FDBD213428050024C963 /* Assets.xcassets */,
 				A0E6FDBF213428050024C963 /* LaunchScreen.storyboard */,
@@ -69,6 +108,16 @@
 				A0E6FDC3213428050024C963 /* main.m */,
 			);
 			path = "iOS-Startup-Optimize-Demo";
+			sourceTree = "<group>";
+		};
+		A0E6FDCA213436970024C963 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0E6FDCB213436970024C963 /* KKTimeWatch.m */,
+				A0E6FDCC213436970024C963 /* .gitkeep */,
+				A0E6FDCD213436970024C963 /* KKTimeWatch.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +180,8 @@
 				A0E6FDC1213428050024C963 /* LaunchScreen.storyboard in Resources */,
 				A0E6FDBE213428050024C963 /* Assets.xcassets in Resources */,
 				A0E6FDBC213428030024C963 /* Main.storyboard in Resources */,
+				A0E6FDCF213436970024C963 /* .gitkeep in Resources */,
+				A016997A2134CF9500A6716E /* user.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01699702134CE7C00A6716E /* YYGHUser.m in Sources */,
+				A016997D2134D22D00A6716E /* ConsumTimeHelper.m in Sources */,
+				A0E6FDCE213436970024C963 /* KKTimeWatch.m in Sources */,
 				A0E6FDB9213428030024C963 /* ViewController.m in Sources */,
+				A01699772134CEFB00A6716E /* NSObject+YYModel.m in Sources */,
 				A0E6FDC4213428050024C963 /* main.m in Sources */,
 				A0E6FDB6213428030024C963 /* AppDelegate.m in Sources */,
+				A01699782134CEFB00A6716E /* YYClassInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FU2N2VJN4R;
 				INFOPLIST_FILE = "iOS-Startup-Optimize-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FU2N2VJN4R;
 				INFOPLIST_FILE = "iOS-Startup-Optimize-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
