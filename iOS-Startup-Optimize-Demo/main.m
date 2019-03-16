@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "KKTimeWatch.h"
+#import "SMCallTrace/SMCallTrace.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         KKTimeWatchStart
+//        [SMCallTrace start];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

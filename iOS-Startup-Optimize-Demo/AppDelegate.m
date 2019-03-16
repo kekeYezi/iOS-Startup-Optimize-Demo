@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     KKTimeWatchRecord(@"didFinishLaunchingWithOptions start")
-    [ConsumTimeHelper consumTimeWithCount:50000];
+//    [ConsumTimeHelper consumTimeWithCount:50000];
     // Override point for customization after application launch.
     KKTimeWatchRecord(@"didFinishLaunchingWithOptions end")
     return YES;

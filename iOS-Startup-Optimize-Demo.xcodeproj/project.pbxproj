@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9916031BEE1614301584C3DF /* libPods-iOS-Startup-Optimize-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3176A9F7515AD4019132026C /* libPods-iOS-Startup-Optimize-Demo.a */; };
 		A01699702134CE7C00A6716E /* YYGHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A016996F2134CE7B00A6716E /* YYGHUser.m */; };
 		A01699772134CEFB00A6716E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A01699742134CEFB00A6716E /* NSObject+YYModel.m */; };
 		A01699782134CEFB00A6716E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A01699752134CEFB00A6716E /* YYClassInfo.m */; };
 		A016997A2134CF9500A6716E /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = A01699792134CF9500A6716E /* user.json */; };
 		A016997D2134D22D00A6716E /* ConsumTimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A016997C2134D22D00A6716E /* ConsumTimeHelper.m */; };
+		A021F31F223CE88E00A3BEF7 /* SMCallTraceTimeCostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A021F31B223CE88E00A3BEF7 /* SMCallTraceTimeCostModel.m */; };
+		A021F320223CE88E00A3BEF7 /* SMCallTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = A021F31D223CE88E00A3BEF7 /* SMCallTrace.m */; };
+		A021F321223CE88E00A3BEF7 /* SMCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = A021F31E223CE88E00A3BEF7 /* SMCallTraceCore.c */; };
+		A021F324223CE8B300A3BEF7 /* SMCallLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A021F323223CE8B300A3BEF7 /* SMCallLib.m */; };
+		A021F327223CE8E900A3BEF7 /* SMLagDB.m in Sources */ = {isa = PBXBuildFile; fileRef = A021F326223CE8E900A3BEF7 /* SMLagDB.m */; };
+		A021F32A223CE96500A3BEF7 /* SMCallStackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A021F328223CE96400A3BEF7 /* SMCallStackModel.m */; };
 		A0E6FDB6213428030024C963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6FDB5213428030024C963 /* AppDelegate.m */; };
 		A0E6FDB9213428030024C963 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6FDB8213428030024C963 /* ViewController.m */; };
 		A0E6FDBC213428030024C963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E6FDBA213428030024C963 /* Main.storyboard */; };
@@ -19,10 +26,11 @@
 		A0E6FDC1213428050024C963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E6FDBF213428050024C963 /* LaunchScreen.storyboard */; };
 		A0E6FDC4213428050024C963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6FDC3213428050024C963 /* main.m */; };
 		A0E6FDCE213436970024C963 /* KKTimeWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6FDCB213436970024C963 /* KKTimeWatch.m */; };
-		A0E6FDCF213436970024C963 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A0E6FDCC213436970024C963 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3176A9F7515AD4019132026C /* libPods-iOS-Startup-Optimize-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-Startup-Optimize-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B3D21F9220D0C70F1C84FB /* Pods-iOS-Startup-Optimize-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Startup-Optimize-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Startup-Optimize-Demo/Pods-iOS-Startup-Optimize-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		A016996E2134CE7B00A6716E /* YYGHUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYGHUser.h; sourceTree = "<group>"; };
 		A016996F2134CE7B00A6716E /* YYGHUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYGHUser.m; sourceTree = "<group>"; };
 		A01699722134CEFB00A6716E /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
@@ -33,6 +41,18 @@
 		A01699792134CF9500A6716E /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
 		A016997B2134D22D00A6716E /* ConsumTimeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsumTimeHelper.h; sourceTree = "<group>"; };
 		A016997C2134D22D00A6716E /* ConsumTimeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsumTimeHelper.m; sourceTree = "<group>"; };
+		A021F319223CE88D00A3BEF7 /* SMCallTraceCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTraceCore.h; sourceTree = "<group>"; };
+		A021F31A223CE88D00A3BEF7 /* SMCallTraceTimeCostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTraceTimeCostModel.h; sourceTree = "<group>"; };
+		A021F31B223CE88E00A3BEF7 /* SMCallTraceTimeCostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallTraceTimeCostModel.m; sourceTree = "<group>"; };
+		A021F31C223CE88E00A3BEF7 /* SMCallTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTrace.h; sourceTree = "<group>"; };
+		A021F31D223CE88E00A3BEF7 /* SMCallTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallTrace.m; sourceTree = "<group>"; };
+		A021F31E223CE88E00A3BEF7 /* SMCallTraceCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMCallTraceCore.c; sourceTree = "<group>"; };
+		A021F322223CE8B300A3BEF7 /* SMCallLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallLib.h; sourceTree = "<group>"; };
+		A021F323223CE8B300A3BEF7 /* SMCallLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallLib.m; sourceTree = "<group>"; };
+		A021F325223CE8E900A3BEF7 /* SMLagDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLagDB.h; sourceTree = "<group>"; };
+		A021F326223CE8E900A3BEF7 /* SMLagDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLagDB.m; sourceTree = "<group>"; };
+		A021F328223CE96400A3BEF7 /* SMCallStackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallStackModel.m; sourceTree = "<group>"; };
+		A021F329223CE96400A3BEF7 /* SMCallStackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallStackModel.h; sourceTree = "<group>"; };
 		A0E6FDB1213428030024C963 /* iOS-Startup-Optimize-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Startup-Optimize-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E6FDB4213428030024C963 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0E6FDB5213428030024C963 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,8 +64,8 @@
 		A0E6FDC2213428050024C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0E6FDC3213428050024C963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0E6FDCB213436970024C963 /* KKTimeWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTimeWatch.m; sourceTree = "<group>"; };
-		A0E6FDCC213436970024C963 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		A0E6FDCD213436970024C963 /* KKTimeWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTimeWatch.h; sourceTree = "<group>"; };
+		DC5BEDDA22AAD87B76E24746 /* Pods-iOS-Startup-Optimize-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Startup-Optimize-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Startup-Optimize-Demo/Pods-iOS-Startup-Optimize-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +73,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9916031BEE1614301584C3DF /* libPods-iOS-Startup-Optimize-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D74189BC1E8FFDB98FAD734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3176A9F7515AD4019132026C /* libPods-iOS-Startup-Optimize-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A01699712134CEFB00A6716E /* YYModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,11 +100,32 @@
 			path = YYModel;
 			sourceTree = "<group>";
 		};
+		A021F318223CE87D00A3BEF7 /* SMCallTrace */ = {
+			isa = PBXGroup;
+			children = (
+				A021F329223CE96400A3BEF7 /* SMCallStackModel.h */,
+				A021F328223CE96400A3BEF7 /* SMCallStackModel.m */,
+				A021F325223CE8E900A3BEF7 /* SMLagDB.h */,
+				A021F326223CE8E900A3BEF7 /* SMLagDB.m */,
+				A021F322223CE8B300A3BEF7 /* SMCallLib.h */,
+				A021F323223CE8B300A3BEF7 /* SMCallLib.m */,
+				A021F31C223CE88E00A3BEF7 /* SMCallTrace.h */,
+				A021F31D223CE88E00A3BEF7 /* SMCallTrace.m */,
+				A021F31E223CE88E00A3BEF7 /* SMCallTraceCore.c */,
+				A021F319223CE88D00A3BEF7 /* SMCallTraceCore.h */,
+				A021F31A223CE88D00A3BEF7 /* SMCallTraceTimeCostModel.h */,
+				A021F31B223CE88E00A3BEF7 /* SMCallTraceTimeCostModel.m */,
+			);
+			path = SMCallTrace;
+			sourceTree = "<group>";
+		};
 		A0E6FDA8213428030024C963 = {
 			isa = PBXGroup;
 			children = (
 				A0E6FDB3213428030024C963 /* iOS-Startup-Optimize-Demo */,
 				A0E6FDB2213428030024C963 /* Products */,
+				D6E1127A0C4FE2C5DC0F3B1A /* Pods */,
+				4D74189BC1E8FFDB98FAD734 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				A01699792134CF9500A6716E /* user.json */,
+				A021F318223CE87D00A3BEF7 /* SMCallTrace */,
 				A01699712134CEFB00A6716E /* YYModel */,
 				A0E6FDCA213436970024C963 /* Classes */,
 				A0E6FDB4213428030024C963 /* AppDelegate.h */,
@@ -114,10 +165,18 @@
 			isa = PBXGroup;
 			children = (
 				A0E6FDCB213436970024C963 /* KKTimeWatch.m */,
-				A0E6FDCC213436970024C963 /* .gitkeep */,
 				A0E6FDCD213436970024C963 /* KKTimeWatch.h */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		D6E1127A0C4FE2C5DC0F3B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35B3D21F9220D0C70F1C84FB /* Pods-iOS-Startup-Optimize-Demo.debug.xcconfig */,
+				DC5BEDDA22AAD87B76E24746 /* Pods-iOS-Startup-Optimize-Demo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0E6FDC7213428050024C963 /* Build configuration list for PBXNativeTarget "iOS-Startup-Optimize-Demo" */;
 			buildPhases = (
+				5492118D7CF2611968E79461 /* [CP] Check Pods Manifest.lock */,
 				A0E6FDAD213428030024C963 /* Sources */,
 				A0E6FDAE213428030024C963 /* Frameworks */,
 				A0E6FDAF213428030024C963 /* Resources */,
@@ -180,12 +240,36 @@
 				A0E6FDC1213428050024C963 /* LaunchScreen.storyboard in Resources */,
 				A0E6FDBE213428050024C963 /* Assets.xcassets in Resources */,
 				A0E6FDBC213428030024C963 /* Main.storyboard in Resources */,
-				A0E6FDCF213436970024C963 /* .gitkeep in Resources */,
 				A016997A2134CF9500A6716E /* user.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5492118D7CF2611968E79461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-Startup-Optimize-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0E6FDAD213428030024C963 /* Sources */ = {
@@ -193,11 +277,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A01699702134CE7C00A6716E /* YYGHUser.m in Sources */,
+				A021F320223CE88E00A3BEF7 /* SMCallTrace.m in Sources */,
+				A021F32A223CE96500A3BEF7 /* SMCallStackModel.m in Sources */,
 				A016997D2134D22D00A6716E /* ConsumTimeHelper.m in Sources */,
 				A0E6FDCE213436970024C963 /* KKTimeWatch.m in Sources */,
 				A0E6FDB9213428030024C963 /* ViewController.m in Sources */,
+				A021F321223CE88E00A3BEF7 /* SMCallTraceCore.c in Sources */,
+				A021F31F223CE88E00A3BEF7 /* SMCallTraceTimeCostModel.m in Sources */,
 				A01699772134CEFB00A6716E /* NSObject+YYModel.m in Sources */,
 				A0E6FDC4213428050024C963 /* main.m in Sources */,
+				A021F324223CE8B300A3BEF7 /* SMCallLib.m in Sources */,
+				A021F327223CE8E900A3BEF7 /* SMLagDB.m in Sources */,
 				A0E6FDB6213428030024C963 /* AppDelegate.m in Sources */,
 				A01699782134CEFB00A6716E /* YYClassInfo.m in Sources */,
 			);
@@ -337,17 +427,18 @@
 		};
 		A0E6FDC8213428050024C963 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B3D21F9220D0C70F1C84FB /* Pods-iOS-Startup-Optimize-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FU2N2VJN4R;
+				DEVELOPMENT_TEAM = 6ZXRH3BT6H;
 				INFOPLIST_FILE = "iOS-Startup-Optimize-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kekeyezi.iOS-Startup-Optimize-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gtja.iOS-Startup-Optimize";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,17 +446,18 @@
 		};
 		A0E6FDC9213428050024C963 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5BEDDA22AAD87B76E24746 /* Pods-iOS-Startup-Optimize-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FU2N2VJN4R;
+				DEVELOPMENT_TEAM = 6ZXRH3BT6H;
 				INFOPLIST_FILE = "iOS-Startup-Optimize-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kekeyezi.iOS-Startup-Optimize-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gtja.iOS-Startup-Optimize";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
