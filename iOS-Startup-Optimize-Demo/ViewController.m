@@ -31,7 +31,7 @@
 
 - (void)testInMainThread {
     KKTimeWatchRecord(@"sleepFunc2 start")
-    [ConsumTimeHelper consumTimeWithCount:80000];
+//    [ConsumTimeHelper consumTimeWithCount:80000];
     KKTimeWatchRecord(@"sleepFunc2 end")
 //    [SMCallTrace stop];
 //    [SMCallTrace save];
