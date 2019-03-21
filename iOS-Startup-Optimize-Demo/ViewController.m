@@ -31,10 +31,10 @@
 
 - (void)testInMainThread {
     KKTimeWatchRecord(@"sleepFunc2 start")
-//    [ConsumTimeHelper consumTimeWithCount:80000];
+    [ConsumTimeHelper consumTimeWithCount:8000];
     KKTimeWatchRecord(@"sleepFunc2 end")
-//    [SMCallTrace stop];
-//    [SMCallTrace save];
+    [SMCallTrace stop];
+    [SMCallTrace save];
 }
 
 - (void)testInDispatchGlobalQueue {

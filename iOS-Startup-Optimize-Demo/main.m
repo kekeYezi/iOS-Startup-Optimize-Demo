@@ -14,7 +14,7 @@
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         KKTimeWatchStart
-//        [SMCallTrace start];
+        [SMCallTrace start];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

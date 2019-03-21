@@ -164,8 +164,8 @@
 		A0E6FDCA213436970024C963 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A0E6FDCB213436970024C963 /* KKTimeWatch.m */,
 				A0E6FDCD213436970024C963 /* KKTimeWatch.h */,
+				A0E6FDCB213436970024C963 /* KKTimeWatch.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
